@@ -1,0 +1,310 @@
+a{
+	text-decoration:none;
+	margin-bottom:0px; 
+	margin-top:0px; 
+}
+
+#box {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content: center;
+	max-width:960px;
+}
+
+#header {
+	display: flex;
+	width: 960px;
+	justify-content: space-between;
+	align-content: flex-end;
+}
+
+.header_pic{
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+#header_links {
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-end;
+	text-align:right;
+	align-content: flex-end;
+	line-height: 0.7;
+	width: 40%;
+	margin-bottom: 5px;
+}
+
+.header_links_color{
+
+	text-decoration: none;
+	color: #555555;
+	font-weight: none;
+	font-size: 12px;
+	letter-spacing : 1px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+#blank{
+	height: 42px;
+}
+
+#menu {
+	display: flex;
+	flex-direction: row;	
+}
+
+
+#title1{
+	display: flex;
+	flex-direction: row;
+	width:180px;
+}
+
+#title2{
+	display: flex;
+	flex-direction: row;
+	width:780px;
+}
+#sub_menu{
+	display: flex;
+	width:1000px;
+	justify-content:space-between;
+}
+
+#sub_menu_pic{
+	width :300px;
+	height: 60px;
+	margin-top:17px;
+	justify-content: center;
+}
+
+#sub{
+	display: flex;
+	flex-direction: row;
+	width:40%;
+}
+
+#concert{
+	display:flex;
+	justify-content: space-between;
+	background: black; 
+	margin-bottom: 20px;
+	margin-top:10px; 
+}
+
+.sub_links{
+	color: #339933;
+	font-weight: none;
+	font-size: 13px;
+	text-decoration: none;
+	letter-spacing : 1px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+.sub_links:hover{
+	color: orange;
+	font-weight: none;
+	font-size: 13px;
+	text-decoration: none;
+	letter-spacing : 1px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.sub_links:visited{
+	color: red;
+	font-weight: none;
+	font-size: 13px;
+	text-decoration: none;
+	letter-spacing : 1px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+.sub_links_orange{
+	color: orange;
+	font-weight: none;
+	font-size: 13px;
+	text-decoration: none;
+	letter-spacing : 1px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.sub_links_column{
+	display:flex;
+	flex-direction: column;
+	margin: 1%;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
+#concert_info {
+	width:300px;
+	color: #ffffff;
+	font-weight: none;
+	font-size: 0.7em;
+	text-align: left;
+	line-height: 1.7;
+	text-decoration: none;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+#concert_time{
+	color:#ff6633;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	font-family:  Georgia, Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#article{
+	display: flex;
+	flex-direction: row;
+	width: 960px;
+
+}
+
+
+#list{
+	width:71%;
+	margin-left:1%;
+	margin-right:1%;
+}
+
+#sheet{
+display: flex;
+flex-direction: column;
+}
+
+.line_pic{
+	max-width: 681px;
+}
+
+.sub_title{
+	color:#88AA00;
+	margin-top:10px;
+	font-size: 1.4em;
+}
+
+.concert_song{
+width:100%;
+border-style: solid;
+border-width: thin;
+border-color: gray;
+}
+
+.song_info:nth-child(3n+1) {
+text-align: center;
+}
+
+.concert_song_title{
+	background-color:rgba(154,205,50,0.7);
+}
+.song_info{
+	background-color:rgba(202,255,112,0.3); 
+}
+.rest{
+text-align: center;
+}
+
+.content{
+	display: flex;
+	margin-top: 15px;
+}
+
+
+.content_pic{
+	width:250px;
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+
+.content_info  {
+	width:62%;
+	margin-left:10px; 
+}
+
+.info_size{
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+
+
+.li {
+	font-size:15px;
+	color:#88AA00;
+}
+
+
+.font_red{
+	color:red;
+}
+
+.concert_note{
+	width:25%;
+	background-color: rgba(202,255,112,0.3); 
+	padding-right: 1%;
+	padding-left: 1%; 
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1%;
+}
+
+#note_p1{
+	font-size: 1.2em;
+}
+
+#reg{
+
+}
+
+.footer{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#top{
+	direction: rtl;
+	padding-right: 1%;
+	padding-top: 1%;
+}
+
+#footer_logo{
+	display:flex;
+	flex-direction: row;
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+
+#footer_links {
+	justify-content:flex-end;
+	text-align:right;
+	align-content: flex-end;
+	width: 45%;
+	padding-top: 10px;
+
+}
+
+
+.footer_links_color{
+	text-decoration: none;
+	color: #555555;
+	font-weight: none;
+	font-size: 0.7em;
+	line-height: 1.7;
+	letter-spacing : 1px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	
+}
+
